@@ -1,5 +1,67 @@
 
+body {
+ 
+  text-align:center;
+  font-family: verdana;
+  background: rgb(239,242,196);
+background: linear-gradient(90deg, rgba(239,242,196,1) 4%, rgba(254,255,235,1) 50%, rgba(239,242,196,1) 96%);
+  
+}
+
+.banner {
+  float:left;
+  
+}
+
+.main
+{
+/* background-image: url("Assets/bageTile.jpg"); */
+margin:0;
+
+}
+
+p{
+  overflow:auto;
+}
+
+nav{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+}
+   
+
+
+nav, footer{
+  color:lightcyan;
+  background-color: #001433;
+   
+}
+
+nav  footer , a:hover {
+   background-color: lightskyblue;
+  color:black;
+  
+
+}
+
+a{
+  text-decoration:none;
+}
+
+footer{
+
+  font-size:11px;
+}
+
+
+
+
 ul {
+ 
+ 
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,13 +69,15 @@ ul {
   }
 
 li {
-    float: left;
+  
+   float: left;
   }
   
   a {
+    color:lightcyan;
     display: block;
     padding: 10px;
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
   }
 
  
