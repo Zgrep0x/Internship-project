@@ -5,20 +5,90 @@ body {
   font-family: verdana;
   background: rgb(239,242,196);
 background: linear-gradient(90deg, rgba(239,242,196,1) 4%, rgba(254,255,235,1) 50%, rgba(239,242,196,1) 96%);
+padding:0;
+margin:0;
   
 }
+
+/* .checkbtn
+{
+
+  font-size:30px; 
+  color:white;
+  float:right;
+  line-height:80px;
+  margin-right:40px;
+  cursor:pointer;
+}
+#check
+{
+  display:none;
+} */
 
 .banner {
   float:left;
   
 }
 
-.main
+.container 
 {
-/* background-image: url("Assets/bageTile.jpg"); */
-margin:0;
+  background-image:url("Assets/law2.jpg");
+  background-repeat:no-repeat;
+  background-size:auto;
+  background-attachment: fixed;
+
+
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+  align-content: center;
+  grid-gap:300px;
+  padding:50px;
+  
+
+  /* position:scroll; needs to be fixed  */
+  
+  
+}
+
+
+.grid-container > div {
+
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 30px;
+}
+
+.item
+{
+  color: white;
+  grid-column-start:2;
+  grid-column-end:2;
+  grid-row-start: 2;
+  grid-row-end:2;
+}
+
+.footerContainer
+{
+
+  display:grid;
+  background-color:#001433;
+  grid-template-columns: auto auto auto;
+  justify-content:center;
+  align-content:center;
+  grid-gap:250px;
+  padding:50px;
+
+
+
+  color:lightcyan;
+  
+
 
 }
+
+
 
 p{
   overflow:auto;
@@ -35,8 +105,10 @@ nav{
 
 
 nav, footer{
+  
   color:lightcyan;
   background-color: #001433;
+  
    
 }
 
@@ -59,25 +131,81 @@ footer{
 
 
 
-ul {
+.navigation ul  {
  
  
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+
   }
 
-li {
+  .navigation li {
   
    float: left;
+  
   }
   
-  a {
+  .navigation a {
     color:lightcyan;
     display: block;
     padding: 10px;
-    /* background-color: #dddddd; */
+ 
+  }
+
+
+  /* horitzontal list class */
+
+  .horizontalList ul
+  {
+
+list-style-type: none;
+margin:0;
+padding: 0;
+overflow:hidden;
+
+  }
+
+  .horizontalList li 
+  {
+    
+    float:left;
+    
+
+  }
+  
+  .horizontalList a
+  {
+    color:lightcyan;
+    padding: 10px;
+
+  }
+
+
+
+
+  /* vertical list class */
+
+  .verticalList ul
+  {
+    list-style-type: none;
+margin:0;
+padding: 0px;
+overflow:hidden;
+  }
+
+  .verticalList li
+  {
+display:block;
+padding:15px;
+  }
+
+  .verticalList a
+  {
+    color:lightcyan;
+padding:5px;
+
   }
 
  
