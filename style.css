@@ -7,10 +7,11 @@ body {
 background: linear-gradient(90deg, rgba(239,242,196,1) 4%, rgba(254,255,235,1) 50%, rgba(239,242,196,1) 96%);
 padding:0;
 margin:0;
+
   
 }
 
-/* .checkbtn
+.checkbtn
 {
 
   font-size:30px; 
@@ -19,11 +20,12 @@ margin:0;
   line-height:80px;
   margin-right:40px;
   cursor:pointer;
+  display:none;
 }
 #check
 {
   display:none;
-} */
+}
 
 .banner {
   float:left;
@@ -47,7 +49,7 @@ margin:0;
   padding:50px;
   
 
-  /* position:scroll; needs to be fixed  */
+  
   
   
 }
@@ -73,7 +75,7 @@ margin:0;
 {
 
   display:grid;
-  background-color:#001433;
+  background:#122748;
   grid-template-columns: auto auto auto;
   justify-content:center;
   align-content:center;
@@ -100,6 +102,7 @@ nav{
     top: 0px;
     right: 0px;
     text-align: right;
+    transition:top 0.3s;
 }
    
 
@@ -107,13 +110,13 @@ nav{
 nav, footer{
   
   color:lightcyan;
-  background-color: #001433;
+  background:linear-gradient(to bottom, #2c497e 0%,#1e3762 50%,#122748 100%);
   
    
 }
 
 nav  footer , a:hover {
-   background-color: lightskyblue;
+  background:linear-gradient(to top, #2c497e 0%,#1e3762 50%,#122748 100%);
   color:black;
   
 
