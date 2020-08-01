@@ -1,4 +1,9 @@
 
+
+html{
+  scroll-behavior:smooth;
+}
+
 body {
  
   text-align:center;
@@ -7,6 +12,7 @@ body {
 background: linear-gradient(90deg, rgba(239,242,196,1) 4%, rgba(254,255,235,1) 50%, rgba(239,242,196,1) 96%);
 padding:0;
 margin:0;
+
 
   
 }
@@ -38,6 +44,7 @@ margin:0;
   background-repeat:no-repeat;
   background-size:cover;
   background-attachment: fixed;
+  border-radius:5px;
 
 
   display:grid;
@@ -79,8 +86,10 @@ margin:0;
   grid-template-columns: auto auto auto;
   justify-content:center;
   align-content:center;
+  
   grid-gap:250px;
   padding:50px;
+  border-radius:2px;
 
 
 
@@ -110,6 +119,7 @@ nav{
     transition:top 0.3s;
     color:lightcyan;
   background:linear-gradient(to bottom, #2c497e 0%,#1e3762 50%,#122748 100%);
+  border-radius:4px;
 }
    
 
@@ -118,9 +128,12 @@ nav{
 nav a:hover {
   background:linear-gradient(to top, #2c497e 0%,#1e3762 50%,#122748 100%);
   color:white;
+  border-radius:4px;
   
 
 }
+
+
 
 a{
   text-decoration:none;
@@ -194,6 +207,38 @@ overflow:hidden;
 
   }
 
+  .main
+  {
+border-radius:100px;
+
+  }
+
+  .textBox
+  {
+    justify-content:center;
+    align-content:center;
+    margin:auto;
+    
+      width: 700px;
+      height: 300px;
+      padding: 15px;
+      background-color: #f0f5a4;
+      box-shadow: 10px 10px 5px grey;
+      
+      border-radius:50px;
+    
+  }
+
+  #lawHammer
+  {
+   width:150px;
+   height:150px; 
+    float:right;
+    
+    
+    
+  }
+
 
 
 
@@ -236,7 +281,22 @@ padding:5px;
     100%{transform:rotateZ(360deg);}
   }
 
+  @keyframes arrow
+{
+  from { left:0; top:0px;}
+  to { left:0; top:15px;}
+  
 
+}
+
+#arrowDown
+{
+
+  animation-name: arrow;
+  animation-duration: 1.0s;
+  position:relative;
+  animation-iteration-count:infinite;
+}
 
 
   @media screen and (max-width:980)
