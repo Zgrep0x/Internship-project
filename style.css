@@ -36,7 +36,7 @@ margin:0;
 {
   background-image:url("Assets/law2.jpg");
   background-repeat:no-repeat;
-  background-size:auto;
+  background-size:cover;
   background-attachment: fixed;
 
 
@@ -90,6 +90,11 @@ margin:0;
 
 }
 
+.footerContainer a:hover
+{
+  text-decoration:underline;
+}
+
 
 
 p{
@@ -103,21 +108,16 @@ nav{
     right: 0px;
     text-align: right;
     transition:top 0.3s;
-}
-   
-
-
-nav, footer{
-  
-  color:lightcyan;
+    color:lightcyan;
   background:linear-gradient(to bottom, #2c497e 0%,#1e3762 50%,#122748 100%);
-  
-   
 }
+   
 
-nav  footer , a:hover {
+
+
+nav a:hover {
   background:linear-gradient(to top, #2c497e 0%,#1e3762 50%,#122748 100%);
-  color:black;
+  color:white;
   
 
 }
@@ -126,12 +126,19 @@ a{
   text-decoration:none;
 }
 
-footer{
-
-  font-size:11px;
+.icons
+{
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
 }
 
-
+.fa
+{
+  background: rgb(239,242,196) !important;
+   color: #2c497e !important; 
+  
+}
 
 
 .navigation ul  {
