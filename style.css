@@ -31,10 +31,10 @@ margin:0;
 .checkbtn
 {
 
-  font-size:30px; 
+  font-size:3vh; 
   color:white;
   float:left;
-  line-height:80px;
+  line-height:5vh;
   margin-right:40px;
   cursor:pointer;
   display:none;
@@ -362,16 +362,22 @@ padding:5px;
 
   @media screen and (max-width:768px)
   {
+    i
+    {
+    
+      
+    }
     .checkbtn{
       display:inline-block;
     }
+
      .navigation ul
     {
       position:fixed;
       width:100%;
       height:100vh;
-      background:#2c3e50;
-      top:80px;
+      background:linear-gradient(to bottom, #2c497e 0%,#1e3762 50%,#122748 100%);
+      top:5vh;
        left:-100%;
       text-align:center;
       transition:all .5s;
@@ -387,10 +393,25 @@ padding:5px;
 
     #check:checked ~ ul
     {
+      
       left:0;
+      
     }
 
-    .navigation ul li a { font-size:20px;}
+    .fa-arrow-down
+    {
+display:none !important;
+
+    }
+
+    
+
+    
+
+
+
+
+    .navigation ul li a { font-size:20;}
 
     a:hover,a.active{background:none;
     color: #0082e6; }
