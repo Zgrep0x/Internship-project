@@ -1,37 +1,18 @@
 <!DOCTYPE html>
 
-<!-- to do list:
+<!-- to do list: -->
 
-2)The buttons need to all be of the same color, and the color has to synergize with the theme, and it has to feel smooth.
-3) figure out to style the fonts very beauitfully, in english and in arabic.
-4) a way to display the important text in a beautiful way, maybe use boxes and borders and such.
-5) the picture has to be opensource.(not copyrighted®)
-6) style the button to have an arrow the points downward, and then the screen scrolls downward.
-7) it has to work nicely on mobile and other devices too.
-
-
-
-
-
-
--->
 <Html>
 
 <head>
+    <title>Home Page</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="fontAwesome.css">
+     <link rel="stylesheet" href="home.css"> 
+     <link rel="stylesheet" href="template.css"> 
 
-    <title>
-
-        Home Page
-    </title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fontAwesome.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="script.js"></script> 
-
+    <script src="script.js"></script>
 </head>
 
 
@@ -39,9 +20,9 @@
 <body>
 
 
-    <div>
-        <nav class="navigation" id="navbar">
-            <!-- this tag is the same at every page--> 
+    <!-- navigation bar -->
+
+    <nav class="navigation" id="navbar">
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <i class="fa fa-bars"></i>
@@ -49,16 +30,16 @@
             
             <ul>
                 <li > <a href="#">Home</a> </li>
-                <li> <a href="#"> About </a> </li> <!-- Goals and vision and mission are part of the about page-->
+                <li> <a href="#"> About </a> </li> 
                 <li> <a href="#"> Contact </a> </li>
                 <li> <a href="#"> Services </a> </li>
                 <li> <a href="#"> useful links</a> </li>
-                
             </ul>
-        </nav>
-    </div>
+    </nav>
 
 
+    <!-- end of navigation bar -->
+    
 
 
 
@@ -67,7 +48,10 @@
 
     <!--   Main Section:   -->
     <div class="main">
-        <div class="container">
+
+
+        
+        <div class="container1">
             <div class="item">
                 <img class="name" src="Assets/name1.png">
                 <br/>
@@ -79,54 +63,28 @@
                 <br/>
                 <a href="#section2"><i class="icons fa fa-arrow-down" aria-hidden="true" id="arrowDown"></i></a>
             </div>
-
-            
-
         </div>
+
+
+
 
         <div class="container2">
-
-            <div class="item1">
-                
-
+            <div class="item1"></div>
+            <div class="item2">
+                <h3 > Welcome </h3>
+                <div class = "textBox" id="section2" >
+                    <p> Abeer law firm is such and such, we are such and such.</p>
+                </div>
             </div>
-
-
-<div class="item2">
-    <h3 > Welcome </h3>
-    <div class = "textBox" id="section2" >
-    
-        <p> Abeer law firm is such and such, we are such and such.
-        </p>
+            <div class="item3">
+                <br/>
+                <br/>
+                <br/>
+                <img src="Assets/diplomaticArea2.jpg" id="rightPicture" >
+            </div>
         </div>
-    
-
-</div>
-
-<div class="item3">
-    <br/>
-    <br/>
-    <br/>
-    <img src="Assets/diplomaticArea2.jpg" id="rightPicture" >
-
-</div>
-
-        </div>
-        
-    
-
-        
-    
-    
-    
-
-
-    <br/>
-    <br/>
-    
-
-   
-
+        <br/>
+        <br/>
 
 
 
@@ -135,94 +93,63 @@
 
     <!--  End of main section.  -->
 
-    
 
-<div class="footerContainer">
-    <div class="verticalList">
+    
+    <!--  footer -->
+
+
+    <div class="footerContainer">
+
         <!-- column 1 -->
-        <ul>
-            <li> <img class="rotate" src="Assets/banner.png" alt=" logo" width="100px"></li>
-
-         <li>phone: 396396396</li>
-        
-        <li>info: email@email.com</li>
-        
-         <li>location: Diplomatic Area,Manama</li>
-
-         <li>
-        
-       
-            <div class="horizontalList"> <ul >
-                
-            <li><a href="#" class="icons fa fa-facebook"></a> </li>
-            <li><a href="#" class="icons fa fa-twitter"></a> </li>
-            <li><a href="#" class="icons fa fa-instagram"></a> </li>
-        </ul> 
-                
-            </div> 
-    
-   
-    </li>
-    </ul>
-    </div> 
-
     <div class="verticalList">
+             <ul>
+                <li> <img class="rotate" src="Assets/banner.png" alt=" logo" width="100px"></li>
+                <li>phone: 396396396</li>
+                <li>info: email@email.com</li>
+                <li>location: Diplomatic Area,Manama</li>
+                <li>
+                <div class="horizontalList"> 
+                    <ul >
+                        <li><a href="#" class="icons fa fa-facebook"></a> </li>
+                        <li><a href="#" class="icons fa fa-twitter"></a> </li>
+                        <li><a href="#" class="icons fa fa-instagram"></a> </li>
+                    </ul> 
+                </div> 
+                </li>
+            </ul>
+    </div>
+    
         <!-- column 2  -->
-        <ul>
-            <li> <a href="#">Home</a> </li>
-            <li> <a href="#">Blog</a> </li>
-            <li> <a href="#"> About </a> </li> <!-- Goals and vision and mission are part of the about page-->
-            <li> <a href="#"> Contact </a> </li>
-            <li> <a href="#"> Services </a> </li>
-            <li> <a href="#"> useful links</a> </li>
-        </ul>
-
-
+    <div class="verticalList">
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">Blog</a> </li>
+                <li> <a href="#"> About </a> </li> 
+                <li> <a href="#"> Contact </a> </li>
+                <li> <a href="#"> Services </a> </li>
+                <li> <a href="#"> useful links</a> </li>
+            </ul>
     </div>
        
-
+        <!-- column 3 -->
     <div class="verticalList">
-    <!-- column 3 -->
-    <ul>
-        <li>working hours: 8 A.M to 4 P.M</li>
-        <li>Saturday to Friday</li>
-        <li>Address: Zip </li>
-    </ul>
-
+        <ul>
+            <li>working hours: 8 A.M to 4 P.M</li>
+            <li>Saturday to Friday</li>
+            <li>Address: Zip </li>
+        </ul>
+    </div>
+    </div>
     
-    </div>
-
-    </div>
-
-   
- 
-   
-   
-   
-   <!-- end of footer -->
-   
     
 
-
+    <!--  end of footer -->
+    
 
    
-
-
-
-
-
-
-
-
-
-
-
+   
 
 </body>
-
-
-
-
 
 
 </Html>
