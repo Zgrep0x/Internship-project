@@ -1,0 +1,193 @@
+
+*{list-style-type: none;}
+
+
+.container1
+{
+    margin-top:9vh;
+
+display:grid;
+
+grid-template-columns:  auto auto auto;
+grid-template-rows: auto auto auto;
+justify-content: center;
+align-content: center;
+grid-row-gap:3vh;
+
+
+
+}
+
+
+
+.form
+{
+
+}
+table
+{
+    background:#f6f6f6;
+    border-radius:4px;
+    width:100%;
+    justify-content: center;
+    align-content: center;
+    color:black;
+    line-height:5vh; 
+    
+    
+
+}
+
+table, th, td {
+ 
+  }
+
+  *:focus {
+    outline: none;
+}
+
+
+.formHeader
+{
+    background:linear-gradient(to bottom, #2c497e 0%,#1e3762 50%,#122748 100%);
+    border-radius:4px;
+    width:100%;
+    justify-content: center;
+    align-content: center;
+    color:lightcyan;
+    line-height:5vh;
+
+}
+
+
+
+
+
+.simpleHeader
+{
+    background:linear-gradient(to bottom, #2c497e 0%,#1e3762 50%,#122748 100%);
+    border-radius:4px;
+    width:100%;
+    justify-content: center;
+    align-content: center;
+    color:lightcyan;
+    line-height:5vh;
+    margin:0%;
+
+}
+
+.list1 li
+{
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color:whiteSmoke;
+    color: black;
+    border-radius:10vh;
+    width:auto;
+}
+
+
+input
+{
+    
+    color: white;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #eeedce;
+    color: black;
+    border-radius:10vh;
+  }
+
+
+
+
+  textarea
+  {
+    
+    color: white;
+    width: 50vh;
+    height:20vh;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #eeedce;
+    color: black;
+    border-radius:2vh;
+
+  }
+
+  input[type=reset]
+  {
+    width: auto; 
+}
+input[type=submit]
+{width:auto;}
+
+input:focus,input:hover , textarea:focus,textarea:hover
+{
+    background-color:#e2e0ab;
+}
+
+
+.item1
+{
+
+grid-column-start:1;
+grid-column-end:3;
+grid-row-start:1;
+grid-row-end:1;
+
+
+
+ 
+
+    /* margin-left:60vh; */
+}
+
+.item2
+{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:2;
+    background-color:whitesmoke;
+    top:0%;
+   
+    
+    
+
+}
+
+.item3
+{
+    
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:2;
+    grid-row-end:2;
+    background-color:whiteSmoke;
+
+
+}
+
+
+
+
+
+.formTable
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+
+
