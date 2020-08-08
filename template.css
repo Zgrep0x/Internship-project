@@ -231,6 +231,23 @@ p{
     }
   
      /* end of vertical list class */
+     .dropdown {
+      position: fixed;
+      display: inline-block;
+      cursor:pointer;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: fixed;
+      background: linear-gradient(to bottom, #2c497e 0%,#1e3762 50%,#122748 100%);;
+      z-index: 100;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+      cursor:pointer;
+    }
   
   
   
