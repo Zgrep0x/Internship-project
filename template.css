@@ -309,6 +309,8 @@ p{
   
    @media screen and (max-width:768px)
    {
+     .dropdown
+     {display:none;}
     .checkbtn{
       display:inline-block;
     }
