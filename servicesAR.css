@@ -1,5 +1,5 @@
 *{
-    text-align: left;
+    text-align: right;
 }
 
 .fa
@@ -13,15 +13,5 @@
 
     background: rgb(239,242,196) !important;
     color: #2c497e !important;
-}
-
-
-
-.none ul
-{
-list-style-type: none;
-padding: 0;
-margin: 0;
-text-align: right;
 }
 
