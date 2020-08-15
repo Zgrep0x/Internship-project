@@ -253,8 +253,17 @@ p{
   
      /* animation */
   
+.rotate
+{
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  width:250px;
+}
+
     .rotate:hover
     {
+
+      
       animation-duration:4s;
       animation-name:example;
   
@@ -262,6 +271,7 @@ p{
   
     @keyframes example
     {
+
       0%{transform:rotateZ(0deg);}
       25%{transform:rotateZ(90deg);}
       50%{transform:rotateZ(180deg);}

@@ -25,3 +25,9 @@ margin: 0;
 text-align: right;
 }
 
+
+.link:hover 
+{
+    color:wheat;
+}
+
